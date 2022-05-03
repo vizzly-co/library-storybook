@@ -18,11 +18,11 @@ export const Basic = Template.bind({});
 Basic.args = {
   barStyles: {
     Price: {
-      barColour: "#ab7ac2",
+      barColour: "#b155c3",
       decimalPlaces: 0,
     },
   },
-  componentId: "cmp_76731b06abf94714a414c81d01f753e2",
+  componentId: "cmp_32e31c453023447385ebcfc5b0fd5ed5",
   dimension: {
     field: "Region",
     interval: null,
