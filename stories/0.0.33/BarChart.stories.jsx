@@ -4,14 +4,9 @@ import { BarChart } from "@vizzly/components-0.0.33";
 export default {
   title: "0.0.33/BarChart",
   component: BarChart,
-  argTypes: {},
 };
 
-const Template = (args) => (
-  <>
-    <BarChart {...args} />
-  </>
-);
+const Template = (args) => <BarChart {...args} />;
 
 export const Basic = Template.bind({});
 
