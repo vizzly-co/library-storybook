@@ -1,8 +1,8 @@
 import React from "react";
-import { RouteMap } from "@vizzly/components-0.0.33";
+import { RouteMap } from "@vizzly/components-0.0.37";
 
 export default {
-  title: "0.0.33/RouteMap",
+  title: "0.0.37/RouteMap",
   component: RouteMap,
 };
 

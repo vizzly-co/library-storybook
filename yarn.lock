@@ -2631,9 +2631,36 @@
     "@types/yargs-parser" "*"
 
 "@vizzly/common-0.0.33@npm:@vizzly/common@0.0.33", "@vizzly/common@^0.0.33":
+  name "@vizzly/common-0.0.33"
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/@vizzly/common/-/common-0.0.33.tgz#47c442bc2667102d227f742905b913c663efc99c"
   integrity sha512-+6LwY04RH6lb0o2bsXa/x2Uwx1RWIPCxPl9SMRFiehKt4QijyjpfM0VdFNrshsj2/ATrLH/tKyWoJ/m77NCqcA==
+  dependencies:
+    "@headlessui/react" "1.4.2"
+    "@heroicons/react" "^1.0.6"
+    isomorphic-fetch "^3.0.0"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    styled-components "^5.3.5"
+    twin.macro "^2.8.2"
+
+"@vizzly/common@^0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@vizzly/common/-/common-0.0.34.tgz#761c0dc7e1cca64f82fc3ff3fa5b39f9dd77ddd0"
+  integrity sha512-Qio0fhNIP6+xoVuDj5wqlrrrKn4PmEohgoMfV/7623DsBdTCdt4bLDr/r/KiNnM9CBJb2IhPlhrNFo8J2JvUaQ==
+  dependencies:
+    "@headlessui/react" "1.4.2"
+    "@heroicons/react" "^1.0.6"
+    isomorphic-fetch "^3.0.0"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    styled-components "^5.3.5"
+    twin.macro "^2.8.2"
+
+"@vizzly/common@^0.0.37":
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/@vizzly/common/-/common-0.0.37.tgz#2a02c2881521f361cfddbd9d64ea307c6e91a905"
+  integrity sha512-tCBLpnbWZstmENH3T+DoXgn52ROSi9jRmznLABoPs/dJ//7lHuFgSNo5hQM7p026VzvcqUIP/ijz5rw/YXw5Hw==
   dependencies:
     "@headlessui/react" "1.4.2"
     "@heroicons/react" "^1.0.6"
@@ -2650,6 +2677,34 @@
   dependencies:
     "@headlessui/react" "1.4.2"
     "@vizzly/common" "^0.0.33"
+    lodash "^4.17.21"
+    node-jose "^2.1.1"
+    react-simple-maps "^2.3.0"
+    recharts "^2.1.9"
+    styled-components "^5.3.3"
+    twin.macro "^2.8.2"
+
+"@vizzly/components-0.0.34@npm:@vizzly/components@0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@vizzly/components/-/components-0.0.34.tgz#ef931e0e84673ff091a998c62f40cc6dd55988e4"
+  integrity sha512-w/Dk0WEFuQh/BHv59L2ODHYHEQwWoSNeyQRZmcSvGNw+we+PwFAr15ZcwDHeGrAI/kIjkRd1MPrCwIU4Q2qhqg==
+  dependencies:
+    "@headlessui/react" "1.4.2"
+    "@vizzly/common" "^0.0.34"
+    lodash "^4.17.21"
+    node-jose "^2.1.1"
+    react-simple-maps "^2.3.0"
+    recharts "^2.1.9"
+    styled-components "^5.3.3"
+    twin.macro "^2.8.2"
+
+"@vizzly/components-0.0.37@npm:@vizzly/components@0.0.37":
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/@vizzly/components/-/components-0.0.37.tgz#2d4eb09b7d2f9b9165bf504bea0f4149b1121f1e"
+  integrity sha512-ewf1bJ21op8m0KralbXlbnoeWQonfXkYqRkTZh4ucAs8JB3rzxYj86hkBikTfJMsdFoIH/GlXAzW+nsOKXVhPg==
+  dependencies:
+    "@headlessui/react" "1.4.2"
+    "@vizzly/common" "^0.0.37"
     lodash "^4.17.21"
     node-jose "^2.1.1"
     react-simple-maps "^2.3.0"
