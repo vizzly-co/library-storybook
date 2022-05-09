@@ -20,7 +20,7 @@ Basic.args = {
   },
   fields: ["sign up", "age", "salary", "house price"],
   filters: [],
-  host: "https://app.vizzly.co",
+  host: "https://api.vizzly.co",
   sortBy: [
     {
       direction: "desc",

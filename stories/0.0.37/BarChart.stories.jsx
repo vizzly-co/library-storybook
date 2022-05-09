@@ -33,7 +33,7 @@ Basic.args = {
       field: "Region",
     },
   ],
-  host: "https://app.vizzly.co",
+  host: "https://api.vizzly.co",
   metrics: [
     {
       aggregate: "mean",

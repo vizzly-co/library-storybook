@@ -33,7 +33,7 @@ Basic.args = {
     },
   ],
   groupBy: [],
-  host: "https://app.vizzly.co",
+  host: "https://api.vizzly.co",
   lineStyles: {
     high: {
       connectNulls: false,

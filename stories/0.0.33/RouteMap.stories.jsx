@@ -20,7 +20,7 @@ Basic.args = {
       value: "LGW",
     },
   ],
-  host: "https://app.vizzly.co",
+  host: "https://api.vizzly.co",
   origin: "source_airport",
   showGraticule: false,
 };
