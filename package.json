@@ -2,8 +2,13 @@
   "name": "VizzlyStorybook",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:vizzly-co/library-storybook.git",
-  "author": "James Bowers",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vizzly-co/library-storybook.git"
+  },
+  "author": {
+    "name": "James Bowers"
+  },
   "license": "MIT",
   "private": true,
   "devDependencies": {
@@ -30,5 +35,11 @@
     "build": "build-storybook",
     "deploy": "storybook-to-ghpages",
     "format": "yarn prettier --write ./stories"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vizzly-co/library-storybook/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/vizzly-co/library-storybook#readme",
+  "_id": "VizzlyStorybook@1.0.0"
 }
