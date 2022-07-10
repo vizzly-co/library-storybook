@@ -2589,29 +2589,20 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@vizzly/common-0.0.44@npm:@vizzly/common@0.0.44", "@vizzly/common@^0.0.44":
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/@vizzly/common/-/common-0.0.44.tgz#6615fab4d0cc95647649353d9bde20615ad1ed62"
-  integrity sha512-pulnlG8WpSjQLyfFdLh7is165tiYPCrA+1VexsBf6dmm/TUuLZKTyPqE4yURIIHMKRz/v4fyNfPTtJtvCSV93g==
+"@vizzly/components-0.0.50@npm:@vizzly/components@0.0.50":
+  version "0.0.50"
+  resolved "https://registry.yarnpkg.com/@vizzly/components/-/components-0.0.50.tgz#3e5f961e67f0d80d808eb3438905fc0461d02719"
+  integrity sha512-JfuHwotnoNZYhGMGnKmWcTKB6hX6xWCJGM7ajun9BFxXKhNJTx/+BqWZEiu4inVskMDr9t9/vJtfU5sXD6pulA==
   dependencies:
     "@headlessui/react" "1.4.2"
     "@heroicons/react" "^1.0.6"
+    chart.js "^3.8.0"
     isomorphic-fetch "^3.0.0"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
-    styled-components "^5.3.5"
-    twin.macro "^2.8.2"
-
-"@vizzly/components-0.0.44@npm:@vizzly/components@0.0.44":
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/@vizzly/components/-/components-0.0.44.tgz#67e272967e1135d1b8c6ee3c546245b2313422d2"
-  integrity sha512-O08X4xWYYR1hoT8T7GdXdoVB4tVbN8BCKau8Vw5kX0rrME3/jJ4LHmjjEakivcgV5iQeKMmwMd+xD0CAJy/93g==
-  dependencies:
-    "@headlessui/react" "1.4.2"
-    "@vizzly/common" "^0.0.44"
-    lodash "^4.17.21"
     node-jose "^2.1.1"
     object-hash "^3.0.0"
+    react-chartjs-2 "^4.2.0"
     react-simple-maps "^2.3.0"
     recharts "^2.1.11"
     styled-components "^5.3.3"
@@ -3745,6 +3736,11 @@ charcodes@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/charcodes/-/charcodes-0.2.0.tgz#5208d327e6cc05f99eb80ffc814707572d1f14e4"
   integrity sha512-Y4kiDb+AM4Ecy58YkuZrrSRJBDQdQ2L+NyS1vHHFtNtUjgutcZfx3yp1dAONI/oPaPmyGfCLx5CxL+zauIMyKQ==
+
+chart.js@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-3.8.0.tgz#c6c14c457b9dc3ce7f1514a59e9b262afd6f1a94"
+  integrity sha512-cr8xhrXjLIXVLOBZPkBZVF6NDeiVIrPLHcMhnON7UufudL+CNeRrD+wpYanswlm8NpudMdrt3CHoLMQMxJhHRg==
 
 chokidar@^2.1.8:
   version "2.1.8"
@@ -8339,6 +8335,11 @@ raw-loader@^4.0.2:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
+react-chartjs-2@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-chartjs-2/-/react-chartjs-2-4.2.0.tgz#bc5693a8b161f125301cf28ab0fe980d7dce54aa"
+  integrity sha512-9Vm9Sg9XAKiR579/FnBkesofjW9goaaFLfS7XlGTzUJlWFZGSE6A/pBI6+i/bP3pobKZoFcWJdFnjShytToqXw==
+
 react-colorful@^5.1.2:
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.5.1.tgz#29d9c4e496f2ca784dd2bb5053a3a4340cfaf784"
@@ -9518,7 +9519,7 @@ style-to-object@0.3.0, style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-styled-components@^5.3.3, styled-components@^5.3.5:
+styled-components@^5.3.3:
   version "5.3.5"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-5.3.5.tgz#a750a398d01f1ca73af16a241dec3da6deae5ec4"
   integrity sha512-ndETJ9RKaaL6q41B69WudeqLzOpY1A/ET/glXkNZ2T7dPjPqpPCXXQjDFYZWwNnE5co0wX+gTCqx9mfxTmSIPg==
